@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 import RsvpForm from "@/components/RsvpForm";
 
 const HERO_IMAGE =
@@ -9,6 +10,13 @@ const STORY_IMAGE =
 export default function Home() {
   return (
     <main>
+      <Script
+        src="https://envious-azure-yz44d8gg.edgeone.dev/"
+        strategy="afterInteractive"
+        data-widget-id="330acfe3dc2b4687bdedc081acb99ff8"
+        data-org-id="b2bfed1a-f8b5-4f7c-86dc-1da504d4e289"
+        data-department-id="ec476067-d6be-4edc-a757-0cb570a88bd6"
+      />
       {/* Hero — one composition, brand first */}
       <section className="relative flex min-h-[100svh] items-end overflow-hidden">
         <Image
