@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main>
       <Script
-        src="https://envious-azure-yz44d8gg.edgeone.dev/"
+        src="https://chatwidgetjs.vercel.app/widget.js"
         strategy="afterInteractive"
         data-widget-id="330acfe3dc2b4687bdedc081acb99ff8"
         data-org-id="b2bfed1a-f8b5-4f7c-86dc-1da504d4e289"
