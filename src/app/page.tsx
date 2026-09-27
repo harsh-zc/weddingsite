@@ -10,13 +10,8 @@ const STORY_IMAGE =
 export default function Home() {
   return (
     <main>
-      <Script
-        src="https://chatwidgetjs.vercel.app/widget.js"
-        strategy="afterInteractive"
-        data-widget-id="330acfe3dc2b4687bdedc081acb99ff8"
-        data-org-id="b2bfed1a-f8b5-4f7c-86dc-1da504d4e289"
-        data-department-id="ec476067-d6be-4edc-a757-0cb570a88bd6"
-      />
+<script src="https://chatwidgetjs.vercel.app/widget.js" data-widget-id="01M3HVW5G1AKGRMEWRHFE5CCMF" async>
+</script>
       {/* Hero — one composition, brand first */}
       <section className="relative flex min-h-[100svh] items-end overflow-hidden">
         <Image
